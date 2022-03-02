@@ -10,3 +10,13 @@ content-type: application/json
 ###
 
 GET http://localhost:8080/api/v1/student HTTP/1.1
+
+
+###
+
+DELETE  http://localhost:8080/api/v1/student/1 HTTP/1.1
+
+
+
+###
+PUT  http://localhost:8080/api/v1/student/1?name=Maria&email=maria@gmail.com HTTP/1.1
